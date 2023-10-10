@@ -96,20 +96,37 @@ header h1, footer h1{
 }
 
 body#portfolio ul#portfolioitems{
-    display: flex;
-    flex-wrap: wrap;
-    flex: 1;
+    display: grid;
+    grid-template-columns: 1fr;
+    /* flex: 1;
     list-style-type: none;
-    padding: 0;
+    padding: 0; */
 
 }
 @media screen and (min-width:25em){
 body#portfolio ul#portfolioitems li{
-    flex-basis: 48%;
+    /* flex-basis: 48%; */
     padding-right: 2%;
 }
 }
 body#portfolio ul#portfolioitems li img{
     max-width: 100%;
+}
+#button{
+    position: fixed;
+    bottom: 90px;
+    right: 70px;
+    z-index: 999;
+    border: none;
+    background-color: var(--contrast-color);
+    color: var(--light-color);
+    cursor: pointer;
+    border-radius: 15px;
+    font-size: 16px;
+    padding: 12px;
+}
+
+#button:hover{
+    background-color: var(--body-color);
 }
 
