@@ -46,7 +46,7 @@ body{
     grid-template-areas:"head head"
                         "nav nav"
                         "main main"
-                        "foot foot";
+                        "nav foot";
     grid-template-columns: 1fr 4fr;
     grid-template-rows: auto auto 1fr auto;
 }
