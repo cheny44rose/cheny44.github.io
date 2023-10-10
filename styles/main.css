@@ -110,9 +110,10 @@ body#portfolio ul#portfolioitems li{
 }
 }
 body#portfolio ul#portfolioitems li img{
-    max-width: 100%;
+    max-width: 60%;
 }
 #button{
+    display: none;
     position: fixed;
     bottom: 90px;
     right: 70px;
